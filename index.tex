@@ -241,7 +241,7 @@
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, interior hidden, frame hidden, sharp corners, breakable]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, interior hidden, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, breakable, sharp corners, frame hidden]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -366,7 +366,7 @@ Ecuatoriana durante el periodo 20xx -- 20xx?
   país.
 \end{itemize}
 
-\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, coltitle=black, titlerule=0mm, left=2mm, toprule=.15mm, colback=white, leftrule=.75mm, rightrule=.15mm, breakable, bottomtitle=1mm, toptitle=1mm, colframe=quarto-callout-note-color-frame, opacityback=0, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, arc=.35mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white]
+\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, colback=white, colbacktitle=quarto-callout-note-color!10!white, breakable, opacitybacktitle=0.6, colframe=quarto-callout-note-color-frame, titlerule=0mm, bottomrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, opacityback=0, bottomtitle=1mm, toptitle=1mm, coltitle=black, rightrule=.15mm, toprule=.15mm, leftrule=.75mm, left=2mm]
 
 Los objetivos se fundamentan dentro de una comprensión
 \textbf{holística}, la investigación tiene como propósito la búsqueda y
@@ -377,14 +377,14 @@ verificaciones, evaluaciones)
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, coltitle=black, titlerule=0mm, left=2mm, toprule=.15mm, colback=white, leftrule=.75mm, rightrule=.15mm, breakable, bottomtitle=1mm, toptitle=1mm, colframe=quarto-callout-note-color-frame, opacityback=0, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, arc=.35mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white]
+\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, colback=white, colbacktitle=quarto-callout-note-color!10!white, breakable, opacitybacktitle=0.6, colframe=quarto-callout-note-color-frame, titlerule=0mm, bottomrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, opacityback=0, bottomtitle=1mm, toptitle=1mm, coltitle=black, rightrule=.15mm, toprule=.15mm, leftrule=.75mm, left=2mm]
 
 1 verbo en infinitivo, 2 objeto de estudio, 3 como lo hago, 4 para que
 (justificación).
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, coltitle=black, titlerule=0mm, left=2mm, toprule=.15mm, colback=white, leftrule=.75mm, rightrule=.15mm, breakable, bottomtitle=1mm, toptitle=1mm, colframe=quarto-callout-note-color-frame, opacityback=0, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, arc=.35mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white]
+\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, colback=white, colbacktitle=quarto-callout-note-color!10!white, breakable, opacitybacktitle=0.6, colframe=quarto-callout-note-color-frame, titlerule=0mm, bottomrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, opacityback=0, bottomtitle=1mm, toptitle=1mm, coltitle=black, rightrule=.15mm, toprule=.15mm, leftrule=.75mm, left=2mm]
 
 Entrenar y evaluar un modelo de regresión con diferentes algoritmos.
 Realizar un preprocesamiento de datos. Ajustar algunos hiperparámetros.
@@ -392,7 +392,7 @@ Realizar mejores predicciones.
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, bottomrule=.15mm, coltitle=black, titlerule=0mm, left=2mm, toprule=.15mm, colback=white, leftrule=.75mm, rightrule=.15mm, breakable, bottomtitle=1mm, toptitle=1mm, colframe=quarto-callout-note-color-frame, opacityback=0, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, arc=.35mm, opacitybacktitle=0.6, colbacktitle=quarto-callout-note-color!10!white]
+\begin{tcolorbox}[enhanced jigsaw, arc=.35mm, colback=white, colbacktitle=quarto-callout-note-color!10!white, breakable, opacitybacktitle=0.6, colframe=quarto-callout-note-color-frame, titlerule=0mm, bottomrule=.15mm, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, opacityback=0, bottomtitle=1mm, toptitle=1mm, coltitle=black, rightrule=.15mm, toprule=.15mm, leftrule=.75mm, left=2mm]
 
 totalCP, totalDeIngresosDelSP TotalGastosDelSP, inflación, Empleo
 CanastaFamiliar, SaldoDeLaDeudaPublicaInterna, ÍNDICE DE PRECIOS AL
@@ -400,6 +400,16 @@ PRODUCTOR DE DISPONIBILIDAD NACIONAL, LIQUIDEZ TOTAL (M2), balanza
 comercial (TOMAR EN CUENTA)
 
 \end{tcolorbox}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DecValTok{2}\SpecialCharTok{*}\DecValTok{2}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 4
+\end{verbatim}
 
 \begin{Shaded}
 \begin{Highlighting}[]
