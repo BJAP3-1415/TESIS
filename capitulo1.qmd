@@ -54,3 +54,7 @@ totalCP, totalDeIngresosDelSP	TotalGastosDelSP, inflación, Empleo	CanastaFamili
 
 
 ```
+
+```{r}
+5*5*5
+```
