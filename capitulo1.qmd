@@ -1,0 +1,50 @@
+# CAPÍTULO I
+## INTRODUCCIÓN
+
+
+
+## JUSTIFICACIÓN
+
+## Formulación del problema de investigación
+
+¿Que impacto tiene el gasto de la contratación pública en la economía Ecuatoriana durante el periodo 20xx – 20xx?
+
+## OBJETIVOS
+### GENERAL
++ Analizar el impacto de la contratación pública en la economía ecuatoriana mediante el uso de técnicas de aprendizaje automático, con el fin de identificar patrones, tendencias y relaciones que contribuyan a comprender cómo el gasto en contratación pública afecta el desarrollo económico del país."
+
+### ESPECÍFICOS
+
++ Detallar la evolución de la Contratación pública durante el periodo 20xx - 20xx
+
++ Evaluar el impacto de la contratación pública en la economía ecuatoriana, considerando aspectos como el crecimiento del PIB, la generación de empleo, la inversión pública y la eficiencia en el gasto gubernamental, y proponer recomendaciones basadas en los resultados del análisis de aprendizaje automático para mejorar la toma de decisiones y la gestión de la contratación pública en el país.
+
++ Aplicar técnicas de aprendizaje automático, como el análisis de datos, la modelización predictiva, a los datos recopilados con el fin de identificar patrones, tendencias y relaciones entre los procesos de contratación pública y los indicadores económicos y financieros del país.
+
+
+::: callout-note
+Los objetivos se fundamentan dentro de una comprensión **holística**, la investigación tiene como propósito la búsqueda y generación de conocimiento, de modo tal que ese conocimiento pueda tener diferentes grados de elaboración (Exploraciones, descripciones, análisis, comparaciones, explicaciones, predicciones, transformaciones, verificaciones, evaluaciones)
+:::
+
+::: callout-note
+1 verbo en infinitivo, 2 objeto de estudio, 3 como lo hago, 4 para que (justificación). 
+:::
+
+
+::: callout-note
+Entrenar y evaluar un modelo de regresión con diferentes algoritmos.
+Realizar un preprocesamiento de datos.
+Ajustar algunos hiperparámetros.
+Realizar mejores predicciones.
+::: 
+
+::: callout-note
+totalCP, totalDeIngresosDelSP	TotalGastosDelSP, inflación, Empleo	CanastaFamiliar, SaldoDeLaDeudaPublicaInterna, ÍNDICE DE PRECIOS AL PRODUCTOR DE DISPONIBILIDAD NACIONAL, LIQUIDEZ TOTAL (M2), balanza comercial (TOMAR EN CUENTA)
+::: 
+
+```{r}
+2*2
+
+
+```
+

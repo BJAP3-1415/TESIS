@@ -1,0 +1,17 @@
+# TÍTULO {.unnumbered}
+
+
++ **IMPACTO DE LA CONTRATACIÓN PÚBLICA EN LA ECONOMÍA ECUATORIANA, UN ANÁLISIS MEDIANTE EL APRENDIZAJE AUTOMÁTICO.**
+
+
+# LÍNEA DE INVESTIGACIÓN {.unnumbered}
+
+
++ Primera: Ciclo Económico y Sistema Financiero Nacional.
+
+> *El proceso investigativo en esta línea se concentra en la identificación de las fases del ciclo económico del territorio , alineada con la exploración de variables como consumo, inversión, empleo ,producción de bienes y servicios, la cual se desarrolla en función de la actividad productiva de la zona en un tiempo determinado, (...), permite dilucidar con certeza la fase en la que se encuentra económicamente el país, y alinearla con el desarrollo del sistema financiero nacional, en cuanto hace referencia a la determinación de políticas públicas resilientes, empáticas y honestas, del mismo modo conocer e interpretar aspectos relevantes del Sistema Financiero Nacional.*
+
+
++ Tercera: La política monetaria en una economía dolarizada y el sistema financiero nacional.
+
+> *El desarrollo de esta línea pretende aportar la sostenibilidad y transparencia de la gestión de las finanzas públicas, ya que, el análisis de la política monetaria como objetivo central de controlar y mantener la estabilidad económica, se relaciona con el tratamiento de las finanzas públicas, de esta forma las decisiones de ingresos, egresos de las instituciones de sector público, se suscriben hacia la política pública, amerita del desarrollo técnico de las variable macroeconómicas de monitoreo, control y evaluación del gasto público.*

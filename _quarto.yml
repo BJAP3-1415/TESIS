@@ -1,0 +1,32 @@
+project:
+  type: book
+  output-dir: docs
+
+execute:
+  freeze: auto
+
+book:
+  title: "TRABAJO DE TITULACIÓN"
+  subtitle: "Universidad Técnica de Ambato - Maestría en Economía"
+  author: "Bryan J. Aragón P."
+  date: today
+  search: true
+  chapters:
+    - index.qmd
+    - capitulo1.qmd
+    - capitulo2.qmd
+    - capitulo3.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: style.scss
+    code-copy: true
+    embed-resources: true
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
